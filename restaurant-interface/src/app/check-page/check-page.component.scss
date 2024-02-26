@@ -1,0 +1,47 @@
+.from-container{
+    font-family: "Comic Sans MS";
+    min-width: 1200px;
+    min-height: 680px;
+    max-width: 1200px;
+    max-height: 680px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: rgba(255, 240, 244, 0.9);
+    justify-content: center;
+    align-items: center;
+
+    .title{
+      text-align: center;
+      font-size: 30px;
+    }
+
+    .buttons{
+      text-align: center;
+      margin: 25px;
+    }
+
+  }
+
+  button{
+    font-family: "Comic Sans MS";
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 15px;
+    height: 40px;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: moccasin;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover{
+    background-color: navajowhite;
+  }
+  
+  button:active{
+    background-color: burlywood;
+  }
+  

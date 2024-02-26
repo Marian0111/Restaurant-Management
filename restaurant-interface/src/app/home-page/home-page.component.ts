@@ -1,0 +1,30 @@
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+
+@Component({
+  selector: 'app-home-page',
+  templateUrl: './home-page.component.html',
+  styleUrl: './home-page.component.scss'
+})
+export class HomePageComponent {
+  title = 'Flavors Heaven Bistro';
+
+  constructor(private router: Router) { }
+
+  redirectToMenu() {
+    this.router.navigateByUrl('/menu');
+  }
+
+  redirectToReservation() {
+    this.router.navigateByUrl('/reservation');
+  }
+
+  redirectToOrder() {
+    this.router.navigateByUrl('/order');
+  }
+
+  redirectToCheck() {
+    this.router.navigateByUrl('/check');
+  }
+
+}
